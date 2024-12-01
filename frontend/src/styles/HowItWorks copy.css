@@ -1,0 +1,78 @@
+/* General Container Styles */
+.how-it-works-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .how-it-works-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Steps Layout */
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Individual Step Card */
+  .step {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon Styles */
+  .step-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* Step Title */
+  .step-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Step Description */
+  .step-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Note Section */
+  .note {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps-container {
+      flex-direction: column;
+    }
+  
+    .step {
+      flex: 1 1 100%;
+    }
+  }
+  

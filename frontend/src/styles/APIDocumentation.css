@@ -1,0 +1,114 @@
+.api-doc-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 20px 20px;
+    font-family: Arial, sans-serif;
+    /* border-top: 2px solid #ccc; */
+  }
+  
+  .api-doc-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 66px;
+    color: #ccc;
+  }
+  
+  .api-doc-accordion {
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181825;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .accordion-header:hover {
+    background-color: #eaeaea;
+  } */
+  
+  .accordion-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .accordion-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    text-align: left;
+    padding: 15px;
+    background-color: black;
+    border-top: 1px solid #ccc;
+  }
+  
+  .base-url {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .api-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #181825;
+  }
+  
+  .api-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+  }
+  
+  .api-card .method {
+    font-weight: bold;
+    color: #FEC238;
+    margin-right: 5px;
+  }
+  
+  .api-card .description {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #ddd;
+  }
+  
+  .api-card .auth {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .example-section {
+    margin-top: 10px;
+  }
+  
+  .example-section pre {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  @media screen and (max-width:768px) {
+    .api-doc-title {
+        font-size: 33px;
+    }
+    .apiDocsPage .applyButton {
+      width: 80%;
+    }
+    .apiDocsPage .api-doc-container {
+      width: 100%;
+    }
+  }
