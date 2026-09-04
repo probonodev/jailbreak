@@ -148,7 +148,7 @@ const MobileMenu = (props) => {
                 >
                   <SiGitbook />
                 </a>
-                <a href="https://github.com/jailbreakme-xyz" target="_blank">
+                <a href="https://github.com/merlo-team" target="_blank">
                   <SiGithub />
                 </a>
               </div>

@@ -42,7 +42,7 @@ export default function SocialIcons(props) {
         <SiGitbook size={20} className="pointer" />
       </a>
       <a
-        href="https://github.com/jailbreakme-xyz"
+        href="https://github.com/merlo-team"
         target="_blank"
         className="pointer"
       >

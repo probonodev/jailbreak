@@ -93,7 +93,7 @@ const MainMenu = (props) => {
                 <SiGitbook size={30} className="pointer" />
               </a>
               <a
-                href="https://github.com/jailbreakme-xyz"
+                href="https://github.com/merlo-team"
                 target="_blank"
                 className="pointer"
               >
