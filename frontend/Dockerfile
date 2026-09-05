@@ -10,6 +10,8 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
+ENV NODE_OPTIONS=--max-old-space-size=1536
+
 RUN npm run build
 
 EXPOSE 3000
